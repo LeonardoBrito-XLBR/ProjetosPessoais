@@ -16,6 +16,7 @@ programa {
     escreva ("\t\t\t\t\nObrigado por escolher a gente - Esperamos que morra de satisfação.")
     escreva ("\nMuitpo prazer fique a vontade.")
 
+    //Confirmando para a proxima etapa
     escreva ("\nPronto para uma experiencia inesquecivel? ")
     leia (inicio)
 
@@ -35,7 +36,7 @@ programa {
     escreva ("\nQual a sua opção de Hoje: ")
     leia (opcao)
   
-    //Escolhendo os pratos para a pessoa
+    //Atribuindo valores a opção desejada através do menu
     limpa ()
     escreva ("Boa Escolha - Estamos preparando: ")
 
@@ -80,10 +81,7 @@ programa {
       sabor = "\nPizza de Rosas - R$ 38,00"
     }
     
-   
 
-    //Armazenando opção de pizza
-   
  
     escreva ("", sabor)
 
