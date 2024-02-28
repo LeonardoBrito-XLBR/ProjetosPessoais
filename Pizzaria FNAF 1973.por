@@ -1,8 +1,8 @@
 programa {
   funcao inicio() {
 
-    //Declarando as variavies para opÁıes 
-    cadeia nome, confirmacao, pagamento, sabor, inicio
+    //Declarando as variavies para op√ß√µes 
+    cadeia nome, pagamento, sabor, inicio
     inteiro opcao
 
     //Variavies desviadas
@@ -10,19 +10,19 @@ programa {
     inteiro troco
 
     //Solicitando os dados do comprador 
-    escreva ("\n\b ==== Ol· Bem Vindo a Pizzaria FNAF ==== \b")
+    escreva ("\n\b ==== Ol√° Bem Vindo a Pizzaria FNAF ==== \b")
     escreva ("\n\n\t\tComo se chama? ")
     leia(nome)
-    escreva ("\t\t\t\t\nObrigado por escolher a gente - Esperamos que morra de satisfaÁ„o.")
+    escreva ("\t\t\t\t\nObrigado por escolher a gente - Esperamos que morra de satisfa√ß√£o.")
     escreva ("\nMuitpo prazer fique a vontade.")
 
     escreva ("\nPronto para uma experiencia inesquecivel? ")
     leia (inicio)
 
-   //Exibindo as informaÁıes do Menu da Pizzaria 
+   //Exibindo as informa√ß√µes do Menu da Pizzaria 
    limpa ()
     escreva ("\n\n\t\t\t\t\t\t======== Menu do FNAF Pizza ========")
-    escreva ("\n\t\t\t1 - Pizza de Calabresa (Cl·ssica) \t\t\t\t R$ 25,00")
+    escreva ("\n\t\t\t1 - Pizza de Calabresa (Cl√°ssica) \t\t\t\t R$ 25,00")
     escreva ("\n\t\t\t2 - Pizza de Frango (Nordestino) \t\t\t\t\t R$ 20,00")
     escreva ("\n\t\t\t3 - Pizza de Queijo (Elegante) \t\t\t\t\t\t R$ 23,00")
     escreva ("\n\t\t\t4 - Pizza de Carne (Dinossauro) \t\t\t\t\t R$ 24,00")
@@ -30,9 +30,9 @@ programa {
     escreva ("\n\t\t\t6 - Pizza de doce de Leite (Apaixonado) \t R$ 28,00")
     escreva ("\n\t\t\t\t\t\t=========== Fim do Menu =============")
 
-    //Solitando a opÁ„o que ele deseja
+    //Solitando a op√ß√£o que ele deseja
     escreva ("\n\nCaso esteja com duvida, selecione de 7 - 10")
-    escreva ("\nQual a sua opÁ„o de Hoje: ")
+    escreva ("\nQual a sua op√ß√£o de Hoje: ")
     leia (opcao)
   
     //Escolhendo os pratos para a pessoa
@@ -41,7 +41,7 @@ programa {
 
     escolha (opcao){
       caso 1:
-      sabor = "\nPizza de Calabresa (Cl·ssica) - R$ 25,00"
+      sabor = "\nPizza de Calabresa (Cl√°ssica) - R$ 25,00"
 
       pare
       caso 2:
@@ -82,12 +82,12 @@ programa {
     
    
 
-    //Armazenando opÁ„o de pizza
+    //Armazenando op√ß√£o de pizza
    
  
     escreva ("", sabor)
 
-    //Aplicando uma condiÁ„o caso o cliente n„o goste
+    //Aplicando uma condi√ß√£o caso o cliente n√£o goste
     escreva ("\nConfirma o pedido? ")
     leia (confirmacao)
    
@@ -95,9 +95,9 @@ programa {
 
     limpa ()
     escreva ("\t\t======= FORMA DE PAGAMENTO =======")
-    escreva ("\n Escolha as opÁıes em n˙meros de como deseja pagar")
+    escreva ("\n Escolha as op√ß√µes em n√∫meros de como deseja pagar")
     escreva ("\n 1- Pix ")
-    escreva ("\n 2- Cart„o")
+    escreva ("\n 2- Cart√£o")
     escreva ("\n 3- Dinheiro")
     escreva ("\n\n Escolha a forma de pagamento: ")
     leia (pagamento)
@@ -127,7 +127,7 @@ programa {
 
     limpa ()
     escreva("\b ===== Pizzaria FNAF deste 1973 ===== \b")
-    escreva("\n\nObrigado por escolher nosso serviÁo, faÁa um bom apetite.")
+    escreva("\n\nObrigado por escolher nosso servi√ßo, fa√ßa um bom apetite.")
     
   }
 }
