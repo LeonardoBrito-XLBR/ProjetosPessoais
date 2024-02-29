@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
 
-    //Declarando as variavies para opções 
+    //Declarando as variavies para opÃ§Ãµes 
     cadeia nome, pagamento, sabor, inicio
     inteiro opcao
 
@@ -10,17 +10,17 @@ programa {
     inteiro troco
 
     //Solicitando os dados do comprador 
-    escreva ("\n\b ==== Olá Bem Vindo a Pizzaria FNAF ==== \b")
+    escreva ("\n\b ==== OlÃ¡ Bem Vindo a Pizzaria FNAF ==== \b")
     escreva ("\n\n\t\tComo se chama? ")
     leia(nome)
-    escreva ("\t\t\t\t\nObrigado por escolher a gente - Esperamos que morra de satisfação.")
-    escreva ("\nMuitpo prazer fique a vontade.")
+    escreva ("\t\t\t\t\nEsperamos que você sinta-se satisfeito com nossos serviços.")
+    escreva ("\nMuito prazer fique a vontade.")
 
     //Confirmando para a proxima etapa
-    escreva ("\nPronto para uma experiencia inesquecivel? ")
+    escreva ("\n\nPronto para uma experiência inesquecível? ")
     leia (inicio)
 
-   //Exibindo as informações do Menu da Pizzaria 
+   //Exibindo as informaÃ§Ãµes do Menu da Pizzaria 
    limpa ()
     escreva ("\n\n\t\t\t\t\t\t======== Menu do FNAF Pizza ========")
     escreva ("\n\t\t\t1 - Pizza de Calabresa (Clássica) \t\t\t\t R$ 25,00")
@@ -31,12 +31,12 @@ programa {
     escreva ("\n\t\t\t6 - Pizza de doce de Leite (Apaixonado) \t R$ 28,00")
     escreva ("\n\t\t\t\t\t\t=========== Fim do Menu =============")
 
-    //Solitando a opção que ele deseja
+    //Solitando a opÃ§Ã£o que ele deseja
     escreva ("\n\nCaso esteja com duvida, selecione de 7 - 10")
     escreva ("\nQual a sua opção de Hoje: ")
     leia (opcao)
   
-    //Atribuindo valores a opção desejada através do menu
+    //Atribuindo valores a opÃ§Ã£o desejada atravÃ©s do menu
     limpa ()
     escreva ("Boa Escolha - Estamos preparando: ")
 
@@ -85,19 +85,19 @@ programa {
  
     escreva ("", sabor)
 
-    //Aplicando uma condição caso o cliente não goste
-    escreva ("\nConfirma o pedido? ")
+    //Aplicando uma condiÃ§Ã£o caso o cliente nÃ£o goste
+    escreva ("\nPodemos começar a preparar? ")
     leia (confirmacao)
    
     //Perguntando qual a sua forma de pagamento em numero
 
-    limpa ()
-    escreva ("\t\t======= FORMA DE PAGAMENTO =======")
-    escreva ("\n Escolha as opções em números de como deseja pagar")
+    
+    escreva ("\t\t\n======= FORMA DE PAGAMENTO =======")
+    escreva ("\n Aceitamos as seguintes formas de pagamento")
     escreva ("\n 1- Pix ")
     escreva ("\n 2- Cartão")
     escreva ("\n 3- Dinheiro")
-    escreva ("\n\n Escolha a forma de pagamento: ")
+    escreva ("\n\n Escolha uma forma de pagamento: ")
     leia (pagamento)
 
     se (pagamento == "Dinheiro" ou "dinheiro"){
@@ -113,11 +113,11 @@ programa {
     escreva ("\nForma de Pagamento escolhida: ", pagamento)
 
     se (pagamento == "Pix"){
-      escreva ("\nNossa chave Pix: pizzariafnaf1987@gmail.com")
+      escreva ("\nNossa chave Pix: pizzariafnaf1973@gmail.com")
     }
     
     se (pagamento == "Dinheiro"){
-      escreva ("\nTroco para: R$",troco)
+      escreva ("\nTroco para: R$ ",troco)
     }
     escreva ("\nO sabor escolhido foi: ", sabor)
     escreva ("\nPodemos confirmar: ")
