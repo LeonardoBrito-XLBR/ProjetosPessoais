@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
 
-    //Declarando as variavies para opÃ§Ãµes 
+    //Declarando as variavies para opções 
     cadeia nome, pagamento, sabor, inicio
     inteiro opcao
 
@@ -20,7 +20,7 @@ programa {
     escreva ("\n\nPronto para uma experiência inesquecível? ")
     leia (inicio)
 
-   //Exibindo as informaÃ§Ãµes do Menu da Pizzaria 
+   //Exibindo as informações do Menu da Pizzaria 
    limpa ()
     escreva ("\n\n\t\t\t\t\t\t======== Menu do FNAF Pizza ========")
     escreva ("\n\t\t\t1 - Pizza de Calabresa (Clássica) \t\t\t\t R$ 25,00")
@@ -31,12 +31,12 @@ programa {
     escreva ("\n\t\t\t6 - Pizza de doce de Leite (Apaixonado) \t R$ 28,00")
     escreva ("\n\t\t\t\t\t\t=========== Fim do Menu =============")
 
-    //Solitando a opÃ§Ã£o que ele deseja
+    //Solitando a opçãoo que ele deseja
     escreva ("\n\nCaso esteja com duvida, selecione de 7 - 10")
     escreva ("\nQual a sua opção de Hoje: ")
     leia (opcao)
   
-    //Atribuindo valores a opÃ§Ã£o desejada atravÃ©s do menu
+    //Atribuindo valores a opção desejada atraves do menu
     limpa ()
     escreva ("Boa Escolha - Estamos preparando: ")
 
@@ -85,7 +85,7 @@ programa {
  
     escreva ("", sabor)
 
-    //Aplicando uma condiÃ§Ã£o caso o cliente nÃ£o goste
+    //Verificando se é isso mesmo que o cliente quer.
     escreva ("\nPodemos começar a preparar? ")
     leia (confirmacao)
    
