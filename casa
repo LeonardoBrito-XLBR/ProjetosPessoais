@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <locale.h>
+#include <string.h>
+
+int main (){
+	
+	int numero;
+	char Tipo [100];
+	
+	printf ("Digite o seu numero para AnaLise: ");
+	scaNF ("%i", &idade)
+}
