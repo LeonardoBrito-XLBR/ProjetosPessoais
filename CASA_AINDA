@@ -1,0 +1,30 @@
+#include <stdio.h>
+#define tb 6
+
+
+	int main (){
+		int numero[tb];
+		int i, positivo, negative;
+		
+		
+		for ( i=0; i<tb; i++){
+			printf ("Digite o seu %i numero: ", i+1);
+			scanf ("%i", &numero[i]);
+			
+			while (numero[i] < 0 || numero[i] % 2 != 0) {
+			    printf ("Digite O numero par e positivo");
+			    
+				printf ("Digite o seu %i numero: ", i+1);
+			    scanf ("%i", &numero[i]);
+			}
+		}
+		
+		system ("cls || clear");
+			
+		for ( i=tb; i>0; i--){
+			printf ("o seu %i numero: %i ", i , numero[i]);
+			
+			return 0;
+	
+	}
+}
