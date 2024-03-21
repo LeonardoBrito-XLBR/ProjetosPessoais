@@ -21,7 +21,7 @@
 		
 		system ("cls || clear");
 			
-		for ( i=tb; i>0; i--){
+		for ( i=tb - 1; i>= 0; i--){
 			printf ("o seu %i numero: %i ", i , numero[i]);
 			
 			return 0;
